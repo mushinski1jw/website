@@ -1,0 +1,113 @@
+/* Reset default styles */
+
+body,
+h1,
+h2,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+
+body {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: skyblue;
+    color: white;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styles */
+
+header {
+    background-color: skyblue;
+    color: white;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+/* Navigation styles */
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: skyblue;
+    padding: 10px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+/* Main content styles */
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+main article {
+    flex: 2;
+    margin-right: 20px;
+}
+
+main article h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+main article p {
+    margin-bottom: 20px;
+}
+
+main aside {
+    flex: 1;
+}
+
+/* Footer styles */
+
+footer {
+    background-color: skyblue;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Media queries */
+
+@media screen and (max-width: 600px) {
+    main article {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    main aside {
+        flex: none;
+    }
+}

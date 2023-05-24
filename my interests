@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    <title>My page title</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- Here is our main header that is used across all the pages of our website -->
+
+    <header>
+        <h1>Header</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="Home">Home</a></li>
+            <li><a href="My interests">Our team</a></li>
+            <li><a href="My pets">Projects</a></li>
+            <li><a href="Contact">Contact</a></li>
+            <li><a href="Accessibility">Accessibility</a></li>
+        </ul>
+
+        <!-- A Search form is another common non-linear way to navigate through a website. -->
+
+        <form>
+            <input type="search" name="q" placeholder="Search query" />
+            <input type="submit" value="Go!" />
+        </form>
+    </nav>
+
+    <!-- Here is our page's main content -->
+    <main>
+        <!-- It contains my interests -->
+        <My interests>
+            <h2>My interests</h2>
+
+            <p>
+                My favorite video game is Borderlands two. The gameplay is really fun and the game itself has a ton of
+                replayability.
+                If you are a fan of role playing games, then you might like this game. There is a large variety of loot
+                to collect.
+                Also, there are six different playable characters each with their own unique skill trees and special
+                abilities.
+                This game is fun to play with friends or alone. While the story is pretty simply, the main villain of
+                the game is very memorable. <img
+                    src="https://tse4.mm.bing.net/th?id=OIP.r70E0-THHaJLDqauXIwmgwHaEK&pid=Api&P=0&h=180"
+                    alt="Borderlands 2" />
+            </p>
+
+            <p>I have watched a ton of movies over the years, but my favorite movie of all time is Casino Royale.
+                This is a James Bond movie and it is actor Daniel Craig's first time playing the character James Bond.
+                I am a huge James Bond fan and I have seen each movie at least two times.
+                What makes Casino Royale so special is that it is the first Bond film to really give the character an
+                origin story.
+                Daniel Craig does a great job of conveying Bond's emotions and vuneralbility.
+                In addition to the portrayal of the character, the action really stands out for me.
+                This movie has the least amount of action of any Bond film, but the action it does have is very intense.
+                <img src="https://tse2.mm.bing.net/th?id=OIP.0vessPlWGcqMp8clcPYasQHaLH&pid=Api&P=0&h=180"
+                    alt="Casino Royale" />
+            </p>
+
+            </My interests>
+
+            <!-- the aside content can also be nested within the main content -->
+            <aside>
+                <h2>Related</h2>
+
+                <ul>
+                    <li><a href="https://www.indeed.com/career-advice/finding-a-job/psychometrician">What is a
+                            psychometrician</a></li>
+                    <li><a href="https://www.ign.com/articles/the-best-100-video-games-of-all-time">Top 100 video games
+                            of all time</a></li>
+                    <li><a href="https://pethelpful.com/dogs/Why-Do-Yorkies-Make-Great-Pets">Do yorkshire terriers make
+                            greats pets to own</a></li>
+                    <li><a href="https://www.imdb.com/list/ls055592025/">Top 100 movies of all time</a></li>
+                    <li><a href="https://www.alma.edu/">Alma college</a></li>
+                </ul>
+            </aside>
+    </main>
+
+    <!-- And here is our main footer that is used across all the pages of our website -->
+
+    <footer>
+        <p>©Copyright 2050 by nobody. All rights reversed.</p>
+    </footer>
+</body>
+
+</html>
