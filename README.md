@@ -1,1 +1,104 @@
 # website
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    <title>My page title</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- Here is our main header that is used across all the pages of our website -->
+
+    <header>
+        <h1>Header</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="Home">Home</a></li>
+            <li><a href="My interests">Our team</a></li>
+            <li><a href="My pets">Projects</a></li>
+            <li><a href="Contact">Contact</a></li>
+            <li><a href="Accessibility">Accessibility</a></li>
+        </ul>
+
+        <!-- A Search form is another common non-linear way to navigate through a website. -->
+
+        <form>
+            <input type="search" name="q" placeholder="Search query" />
+            <input type="submit" value="Go!" />
+        </form>
+    </nav>
+
+    <!-- Here is our page's main content -->
+    <main>
+        <!-- It contains an annotated bibliography -->
+        <Annotated bibliography>
+            <h2>Annotated bibliography</h2>
+
+            <p>
+                My name is Josh Mushinski.
+                I am originally from Livonia, Michigan where I went to Churchill High School.
+                I now live over on the west side of the state in the Grand Rapids area.
+                This is my senior year of college and afterwards I plan on going to graduate school to become a
+                psychometrician.
+            </p>
+
+            <h3>My interests</h3>
+
+            <p>
+                Video games are one of my interests.
+                I have been playing video games all of my life.
+                I love playing video games of any genres.
+                For me, video games are a great way to relieve stress and also to hang out with friends.
+                My favorite genre of video games is single player open world games.
+            </p>
+
+            <p>
+                Another one of my interests is watchign movies.
+                Sometimes I will watch one or two new movies a week.
+                I love movies because they can make you feel a wide range of emotion and they can expand my imagination.
+            </p>
+
+            <h3>My pets</h3>
+
+            <p>
+                Pets have always been a big part of my life.
+                Growing up I had dogs, cats, fish, and bunnies.
+                Pets are great because the bonds you form with them is invaluable and their ability to make you happy
+                when you are feeling down is incredible.
+                Currently, I own two dogs and a cat.
+            </p>
+
+            </Annotated bibliography>
+
+            <!-- the aside content can also be nested within the main content -->
+            <aside>
+                <h2>Related</h2>
+
+                <ul>
+                    <li><a href="https://www.indeed.com/career-advice/finding-a-job/psychometrician">What is a
+                            psychometrician</a></li>
+                    <li><a href="https://www.ign.com/articles/the-best-100-video-games-of-all-time">Top 100 video games
+                            of all time</a></li>
+                    <li><a href="https://pethelpful.com/dogs/Why-Do-Yorkies-Make-Great-Pets">Do yorkshire terriers make
+                            greats pets to own</a></li>
+                    <li><a href="https://www.imdb.com/list/ls055592025/">Top 100 movies of all time</a></li>
+                    <li><a href="https://www.alma.edu/">Alma college</a></li>
+                </ul>
+            </aside>
+    </main>
+
+    <!-- And here is our main footer that is used across all the pages of our website -->
+
+    <footer>
+        <p>©Copyright 2050 by nobody. All rights reversed.</p>
+    </footer>
+</body>
+
+</html>
